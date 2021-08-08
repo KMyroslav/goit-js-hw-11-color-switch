@@ -5,16 +5,16 @@ let active = false;
 let currentColor = 0;
 
 const colors = [
-  "#FFFFFF",
-  "#2196F3",
-  "#4CAF50",
-  "#FF9800",
-  "#009688",
-  "#795548",
+  '#FFFFFF',
+  '#2196F3',
+  '#4CAF50',
+  '#FF9800',
+  '#009688',
+  '#795548',
 ];
 
-startBtn.addEventListener("click", onStartBtnClick);
-stopBtn.addEventListener("click", onStopBtnClick);
+startBtn.addEventListener('click', onStartBtnClick);
+stopBtn.addEventListener('click', onStopBtnClick);
 
 function onStartBtnClick() {
   if (active) {
